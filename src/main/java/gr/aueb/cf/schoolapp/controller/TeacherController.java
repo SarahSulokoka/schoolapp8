@@ -8,6 +8,7 @@ import gr.aueb.cf.schoolapp.mapper.Mapper;
 import gr.aueb.cf.schoolapp.model.Teacher;
 import gr.aueb.cf.schoolapp.repository.RegionRepository;
 import gr.aueb.cf.schoolapp.service.ITeacherService;
+import gr.aueb.cf.schoolapp.validator.TeacherInsertValidator;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,7 @@ public class TeacherController {
     private final ITeacherService teacherService;
     private final RegionRepository regionRepository;
     private final Mapper mapper;
+    private final TeacherInsertValidator teacherInsertValidator;
 
 
 //    @Autowired
@@ -49,6 +51,8 @@ public class TeacherController {
     public String saveTeacher(@Valid @ModelAttribute("teacherInsertDTO") TeacherInsertDTO teacherInsertDTO,
                               BindingResult bindingResult, Model model, RedirectAttributes redirectAttributes) {
         Teacher savedTeacher;
+
+        teacherInsertValidator.validate(teacherInsertDTO, bindingResult);
 
 
 
