@@ -12,14 +12,12 @@ import gr.aueb.cf.schoolapp.validator.TeacherInsertValidator;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
@@ -70,6 +68,24 @@ public class TeacherController {
             model.addAttribute("regions", regionRepository.findAll(Sort.by("name")));
             model.addAttribute("errorMessage", e.getMessage());
             return "teacher-form";
+        }
+
+    }
+
+    @GetMapping("/view")
+    public String getPaginatedTeachers(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size,
+            Model model) {
+        try {
+            Page<TeacherReadOnlyDTO> teacherPage = teacherService.getPaginatedTeachers(page, size);
+            model.addAttribute("teacherPage", teacherPage);
+            model.addAttribute("currentPage", page);
+            model.addAttribute("totalPages", teacherPage.getTotalPages());
+            return "teachers";
+        } catch (Exception e) {
+            model.addAttribute("error", "Failed to load teachers: " + e.getMessage());
+            return "error";
         }
     }
 }
