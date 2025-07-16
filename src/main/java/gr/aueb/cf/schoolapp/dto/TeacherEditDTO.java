@@ -3,16 +3,17 @@ package gr.aueb.cf.schoolapp.dto;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class TeacherInsertDTO {
+@ToString
+public class TeacherEditDTO {
+
+    @NotNull(message = "Το uuid δεν μπορεί να είναι null.")
+    private String uuid;
 
     @NotNull(message = "Το όνομα δεν μπορεί να είναι null.")
     @Size(min = 2, message = "Το όνομα πρέπει να περιέχει τουλάχιστον δύο χαρακτήρες.")
