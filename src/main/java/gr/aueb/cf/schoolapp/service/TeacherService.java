@@ -21,12 +21,14 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
+import java.util.logging.Logger;
 
 @Service
 @RequiredArgsConstructor
 @Slf4j  // log
 public class TeacherService implements ITeacherService {
 
+   // private final Logger log = log
 
     private final TeacherRepository teacherRepository;
     private final RegionRepository regionRepository;
@@ -71,6 +73,7 @@ public class TeacherService implements ITeacherService {
     public Page<TeacherReadOnlyDTO> getPaginatedTeachers(int page, int size) {
         Pageable pageable = PageRequest.of(page, size);
         Page<Teacher> teacherPage = teacherRepository.findAll(pageable);
+        log.trace("Get paginated teachers where returned successfully with page={} and size={}", page , size);
         return teacherPage.map(mapper::mapToTeacherReadOnlyDTO);
     }
 
