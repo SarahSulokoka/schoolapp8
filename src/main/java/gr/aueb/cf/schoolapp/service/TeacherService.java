@@ -14,21 +14,18 @@ import gr.aueb.cf.schoolapp.repository.TeacherRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
-import java.util.logging.Logger;
 
 @Service
 @RequiredArgsConstructor
-@Slf4j  // log
+@Slf4j
 public class TeacherService implements ITeacherService {
 
-   // private final Logger log = log
 
     private final TeacherRepository teacherRepository;
     private final RegionRepository regionRepository;
@@ -73,44 +70,34 @@ public class TeacherService implements ITeacherService {
     public Page<TeacherReadOnlyDTO> getPaginatedTeachers(int page, int size) {
         Pageable pageable = PageRequest.of(page, size);
         Page<Teacher> teacherPage = teacherRepository.findAll(pageable);
-        log.trace("Get paginated teachers where returned successfully with page={} and size={}", page , size);
         return teacherPage.map(mapper::mapToTeacherReadOnlyDTO);
     }
 
     @Override
     @Transactional(rollbackOn = Exception.class)
-    public Teacher updateTeacher(TeacherEditDTO dto)
+    public void updateTeacher(TeacherEditDTO dto)
             throws EntityAlreadyExistsException, EntityInvalidArgumentException, EntityNotFoundException {
-
         try {
-
             Teacher teacher = teacherRepository.findByUuid(dto.getUuid())
                     .orElseThrow(() -> new EntityNotFoundException("Teacher", "Teacher not found"));
-
             if (!teacher.getVat().equals(dto.getVat())) {
                 if (teacherRepository.findByVat(dto.getVat()).isEmpty()) {
                     teacher.setVat(dto.getVat());
                 } else throw new EntityAlreadyExistsException("Teacher", "Teacher with vat " + dto.getVat() + " already exists");
             }
-
             teacher.setFirstname(dto.getFirstname());
             teacher.setLastname(dto.getLastname());
-
             if (!Objects.equals(teacher.getRegion().getId(), dto.getRegionId())) {
                 Region region = regionRepository.findById(dto.getRegionId())
                         .orElseThrow(() -> new EntityInvalidArgumentException("Region", "Invalid region id"));
-
                 Region currentRegion = teacher.getRegion();
                 if (currentRegion != null) {
-                    //currentRegion.removeTeacher(teacher);   // TBD
+                    currentRegion.removeTeacher(teacher);   // TBD
                 }
-
                 region.addTeacher(teacher);
             }
-
             teacherRepository.save(teacher);
             log.info("Teacher with vat={} updated.", dto.getVat());
-            return teacher;
         } catch (EntityNotFoundException e) {
             log.error("Update failed for teacher with vat={}. Entity not found.", dto.getVat(), e);
             throw e;
