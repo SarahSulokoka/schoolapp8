@@ -23,6 +23,7 @@ public class TeacherEditDTO {
     @Size(min = 2, message = "Το επώνυμο πρέπει να περιέχει τουλάχιστον δύο χαρακτήρες.")
     private String lastname;
 
+    @NotNull
     @Pattern(regexp = "\\d{9,}", message = "Το ΑΦΜ δεν μπορεί να είναι μικρότερο από εννιά ψηφία.")
     private String vat;
 

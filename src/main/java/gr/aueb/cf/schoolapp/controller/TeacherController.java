@@ -48,7 +48,7 @@ public class TeacherController {
 
     @GetMapping("/insert")
     public String getTeacherForm(Model model) {
-        model.addAttribute("teacherInsertDTO", new TeacherInsertDTO());
+        model.addAttribute("teacherInsertDTO", new TeacherInsertDTO());     // model request scope
         model.addAttribute("regions", regionRepository.findAll(Sort.by("name"))); // PagingAndSortingRepository
         return "teacher-form";
     }
@@ -98,7 +98,7 @@ public class TeacherController {
     public String showEditForm(@PathVariable String uuid, Model model) {
         try {
             Teacher teacher = teacherRepository.findByUuid(uuid)
-                    .orElseThrow(() -> new EntityNotFoundException("Teacher", "Teacher not found"));
+                    .orElseThrow(() -> new EntityNotFoundException("Teacher", "Teacher not found")); // TBD call service
             model.addAttribute("teacherEditDTO", mapper.mapToTeacherEditDTO(teacher));
             model.addAttribute("regions", regionRepository.findAll(Sort.by("name")));
             return "teacher-edit-form";
@@ -113,9 +113,8 @@ public class TeacherController {
     @PostMapping("/edit")
     public String updateTeacher(@Valid @ModelAttribute("teacherEditDTO") TeacherEditDTO teacherEditDTO,
                                 BindingResult bindingResult, Model model, RedirectAttributes redirectAttributes) {
-        Teacher updatedTeacher;
 
-        teacherInsertValidator.validate(teacherEditDTO, bindingResult);
+       // teacherEditValidator.validate(teacherEditDTO, bindingResult);
 
         if (bindingResult.hasErrors()) {
             model.addAttribute("regions", regionRepository.findAll(Sort.by("name")));
@@ -138,6 +137,17 @@ public class TeacherController {
             model.addAttribute("regions", regionRepository.findAll(Sort.by("name")));
             model.addAttribute("errorMessage", e.getMessage());
             return "teacher-edit-form";
+        }
+    }
+
+    @GetMapping("/school/teachers/delete/{uuid}")
+    public String deleteTeacher(@PathVariable String uuid, Model model) {
+        try {
+            teacherService.deleteTeacherByUUID(uuid);
+            return "redirect:/school/teachers";
+        } catch (EntityNotFoundException e) {
+            model.addAttribute("errorMessage", e.getMessage());
+            return "teachers";
         }
     }
 }

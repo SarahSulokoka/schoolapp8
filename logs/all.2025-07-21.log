@@ -1,0 +1,699 @@
+2025-07-21 20:12:28 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 20:12:29 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 28840 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 20:12:29 INFO  - The following 1 profile is active: "dev"
+2025-07-21 20:12:30 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 20:12:30 INFO  - Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2025-07-21 20:12:31 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 20:12:31 INFO  - Root WebApplicationContext: initialization completed in 2783 ms
+2025-07-21 20:12:32 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 20:12:32 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 20:12:33 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 20:12:34 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 20:12:37 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 20:12:38 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 20:12:39 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 20:12:44 INFO  - Adding welcome page template: index
+2025-07-21 20:12:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 20:12:45 INFO  - Started SchoolappApplication in 17.331 seconds (process running for 18.22)
+2025-07-21 20:13:08 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 20:13:08 INFO  - Completed initialization in 2 ms
+2025-07-21 20:21:26 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 20:21:26 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 57188 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 20:21:26 INFO  - The following 1 profile is active: "dev"
+2025-07-21 20:21:27 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 20:21:27 INFO  - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2025-07-21 20:21:28 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 20:21:29 INFO  - Root WebApplicationContext: initialization completed in 2239 ms
+2025-07-21 20:21:29 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 20:21:29 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 20:21:30 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 20:21:30 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 20:21:32 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 20:21:32 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 20:21:33 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 20:21:34 INFO  - Adding welcome page template: index
+2025-07-21 20:21:35 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 20:21:35 INFO  - Started SchoolappApplication in 9.504 seconds (process running for 10.246)
+2025-07-21 20:21:51 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 20:21:51 INFO  - Completed initialization in 1 ms
+2025-07-21 20:23:22 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 20:23:23 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 28940 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 20:23:23 INFO  - The following 1 profile is active: "dev"
+2025-07-21 20:23:24 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 20:23:24 INFO  - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2025-07-21 20:23:25 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 20:23:25 INFO  - Root WebApplicationContext: initialization completed in 2581 ms
+2025-07-21 20:23:26 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 20:23:26 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 20:23:27 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 20:23:28 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 20:23:30 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 20:23:30 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 20:23:30 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 20:23:32 INFO  - Adding welcome page template: index
+2025-07-21 20:23:33 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 20:23:33 INFO  - Started SchoolappApplication in 11.478 seconds (process running for 12.072)
+2025-07-21 20:23:46 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 20:23:46 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 22148 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 20:23:46 INFO  - The following 1 profile is active: "dev"
+2025-07-21 20:23:47 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 20:23:48 INFO  - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2025-07-21 20:23:48 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 20:23:49 INFO  - Root WebApplicationContext: initialization completed in 2247 ms
+2025-07-21 20:23:49 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 20:23:49 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 20:23:49 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 20:23:50 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 20:23:52 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 20:23:52 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 20:23:52 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 20:23:53 INFO  - Adding welcome page template: index
+2025-07-21 20:23:54 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 20:23:54 INFO  - Started SchoolappApplication in 8.726 seconds (process running for 9.308)
+2025-07-21 20:24:00 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 20:24:00 INFO  - Completed initialization in 4 ms
+2025-07-21 20:25:16 INFO  - Teacher with vat=123456789 saved.
+2025-07-21 21:01:51 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 21:01:51 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 27744 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 21:01:51 INFO  - The following 1 profile is active: "dev"
+2025-07-21 21:01:53 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 21:01:53 INFO  - Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2025-07-21 21:01:54 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 21:01:54 INFO  - Root WebApplicationContext: initialization completed in 2673 ms
+2025-07-21 21:01:54 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 21:01:54 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 21:01:55 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 21:01:56 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 21:01:58 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 21:01:59 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 21:02:00 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 21:02:02 INFO  - Adding welcome page template: index
+2025-07-21 21:02:03 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 21:02:03 INFO  - Started SchoolappApplication in 13.387 seconds (process running for 14.194)
+2025-07-21 21:02:37 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 21:02:37 INFO  - Completed initialization in 3 ms
+2025-07-21 21:04:11 ERROR - Save failed for teacher  with vat=123456789. Teacher already exists
+2025-07-21 21:04:11 ERROR - [THYMELEAF][http-nio-8080-exec-8] Exception processing template "teacher-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του καθηγητή υπάρχει ήδη..teacherInsertDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 21:04:30 ERROR - Save failed for teacher  with vat=123456789. Teacher already exists
+2025-07-21 21:04:30 ERROR - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "teacher-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του καθηγητή υπάρχει ήδη..teacherInsertDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 21:06:36 ERROR - Save failed for teacher  with vat=123456789. Teacher already exists
+2025-07-21 21:06:36 ERROR - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "teacher-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-form" - line 49, col 83)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του καθηγητή υπάρχει ήδη..teacherInsertDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 21:06:46 INFO  - Teacher with vat=543627865 saved.
+2025-07-21 22:17:47 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 22:17:47 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 12184 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 22:17:47 INFO  - The following 1 profile is active: "dev"
+2025-07-21 22:17:48 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 22:17:49 INFO  - Finished Spring Data repository scanning in 113 ms. Found 2 JPA repository interfaces.
+2025-07-21 22:17:50 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 22:17:50 INFO  - Root WebApplicationContext: initialization completed in 2717 ms
+2025-07-21 22:17:50 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 22:17:50 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 22:17:51 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 22:17:52 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 22:17:54 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 22:17:54 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 22:17:54 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 22:17:56 INFO  - Adding welcome page template: index
+2025-07-21 22:17:56 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 22:17:56 INFO  - Started SchoolappApplication in 10.322 seconds (process running for 11.074)
+2025-07-21 22:18:20 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:18:20 INFO  - Completed initialization in 12 ms
+2025-07-21 22:22:23 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 22:22:23 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 21292 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 22:22:23 INFO  - The following 1 profile is active: "dev"
+2025-07-21 22:22:24 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 22:22:25 INFO  - Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2025-07-21 22:22:25 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 22:22:26 INFO  - Root WebApplicationContext: initialization completed in 2423 ms
+2025-07-21 22:22:26 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 22:22:26 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 22:22:27 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 22:22:28 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 22:22:30 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 22:22:30 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 22:22:30 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 22:22:31 INFO  - Adding welcome page template: index
+2025-07-21 22:22:32 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 22:22:32 INFO  - Started SchoolappApplication in 9.714 seconds (process running for 10.352)
+2025-07-21 22:22:46 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:22:46 INFO  - Completed initialization in 9 ms
+2025-07-21 22:22:46 WARN  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-07-21 22:23:24 WARN  - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-07-21 22:23:43 INFO  - Teacher with vat=123456789 updated.
+2025-07-21 22:38:25 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 22:38:25 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 21184 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 22:38:25 INFO  - The following 1 profile is active: "dev"
+2025-07-21 22:38:27 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 22:38:27 INFO  - Finished Spring Data repository scanning in 102 ms. Found 2 JPA repository interfaces.
+2025-07-21 22:38:28 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 22:38:28 INFO  - Root WebApplicationContext: initialization completed in 3166 ms
+2025-07-21 22:38:29 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 22:38:29 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 22:38:30 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 22:38:31 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 22:38:34 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 22:38:34 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 22:38:34 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 22:38:37 INFO  - Adding welcome page template: index
+2025-07-21 22:38:38 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 22:38:38 INFO  - Started SchoolappApplication in 13.911 seconds (process running for 14.616)
+2025-07-21 22:39:01 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:39:01 INFO  - Completed initialization in 2 ms
+2025-07-21 22:39:02 ERROR - Save failed for teacher with vat=453627546. Teacher already exists
+2025-07-21 22:39:03 ERROR - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "teacher-edit-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του Καθηγητή υπάρχει ήδη..teacherEditDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 22:39:40 ERROR - Save failed for teacher with vat=123456789. Teacher already exists
+2025-07-21 22:39:40 ERROR - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "teacher-edit-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του Καθηγητή υπάρχει ήδη..teacherEditDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 22:39:44 ERROR - Save failed for teacher with vat=123456789. Teacher already exists
+2025-07-21 22:39:44 ERROR - [THYMELEAF][http-nio-8080-exec-3] Exception processing template "teacher-edit-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του Καθηγητή υπάρχει ήδη..teacherEditDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted
+2025-07-21 22:51:24 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-21 22:51:24 INFO  - Starting SchoolappApplication using Java 21.0.6 with PID 4504 (C:\Users\Sarah\IdeaProjects\schoolapp\build\classes\java\main started by Sarah in C:\Users\Sarah\IdeaProjects\schoolapp)
+2025-07-21 22:51:24 INFO  - The following 1 profile is active: "dev"
+2025-07-21 22:51:26 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21 22:51:26 INFO  - Finished Spring Data repository scanning in 125 ms. Found 2 JPA repository interfaces.
+2025-07-21 22:51:27 INFO  - Tomcat initialized with port 8080 (http)
+2025-07-21 22:51:27 INFO  - Root WebApplicationContext: initialization completed in 3305 ms
+2025-07-21 22:51:28 INFO  - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21 22:51:28 INFO  - HHH000026: Second-level cache disabled
+2025-07-21 22:51:29 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21 22:51:30 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-21 22:51:33 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21 22:51:33 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21 22:51:34 INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21 22:51:36 INFO  - Adding welcome page template: index
+2025-07-21 22:51:37 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-07-21 22:51:38 INFO  - Started SchoolappApplication in 15.005 seconds (process running for 15.883)
+2025-07-21 22:51:45 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-07-21 22:51:45 INFO  - Completed initialization in 3 ms
+2025-07-21 22:52:12 ERROR - Save failed for teacher with vat=123456789. Teacher already exists
+2025-07-21 22:52:12 ERROR - [THYMELEAF][http-nio-8080-exec-8] Exception processing template "teacher-edit-form": Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringErrorsTagProcessor' (template: "teacher-edit-form" - line 49, col 18)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.context.NoSuchMessageException: No message found under code 'Το ΑΦΜ του Καθηγητή υπάρχει ήδη..teacherEditDTO.vat' for locale 'en_US'.
+	at org.springframework.context.support.DelegatingMessageSource.getMessage(DelegatingMessageSource.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.getMessage(AbstractApplicationContext.java:1516)
+	at org.springframework.web.servlet.support.RequestContext.getMessage(RequestContext.java:736)
+	at org.springframework.web.servlet.support.BindStatus.initErrorMessages(BindStatus.java:308)
+	at org.springframework.web.servlet.support.BindStatus.getErrorMessages(BindStatus.java:278)
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafBindStatus.getErrorMessages(SpringWebMvcThymeleafBindStatus.java:101)
+	at org.thymeleaf.spring6.processor.SpringErrorsTagProcessor.doProcess(SpringErrorsTagProcessor.java:70)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 52 common frames omitted

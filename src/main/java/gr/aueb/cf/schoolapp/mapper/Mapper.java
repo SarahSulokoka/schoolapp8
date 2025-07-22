@@ -19,7 +19,12 @@ public class Mapper {
     }
 
     public TeacherEditDTO mapToTeacherEditDTO(Teacher teacher) {
-        return new TeacherEditDTO(teacher.getUuid(), teacher.getFirstname(),
-                teacher.getLastname(), teacher.getVat(), teacher.getRegion().getId());
+        return new TeacherEditDTO(
+                teacher.getUuid(),
+                teacher.getFirstname(),
+                teacher.getLastname(),
+                teacher.getVat(),
+                teacher.getRegion().getId()
+        );
     }
 }
