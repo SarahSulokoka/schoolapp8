@@ -31,7 +31,7 @@ public class Mapper {
         return User.builder()
                 .username(userInsertDTO.getUsername())
                 .password(userInsertDTO.getPassword())
-                .role(Role.valueOf(userInsertDTO.getRole().toUpperCase()))
+                //.role(Role.valueOf(userInsertDTO.getRole().toUpperCase()))
                 .build();
     }
 }
