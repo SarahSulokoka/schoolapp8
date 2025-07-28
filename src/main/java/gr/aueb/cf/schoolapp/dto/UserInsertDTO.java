@@ -24,6 +24,8 @@ public class UserInsertDTO {
                     " ένα κεφαλαίο, ένα ψηφίο και έναν ειδικό χαρακτήρα, χωρίς κενά.")
     private String password;
 
-    @NotNull(message = "Ο Ρόλος δεν μπορεί να είναι κενός")
-    private String role;
+//    @NotNull(message = "Ο Ρόλος δεν μπορεί να είναι κενός")
+//    private String role;
+    @NotNull(message = "Ο ρόλος δεν μπορεί να είναι κενός")
+    private Long roleId;
 }
